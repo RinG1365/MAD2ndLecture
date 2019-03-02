@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity" >
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtYear"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="You Year of Birth?"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:onClick="fnThreadedActivity"
+        android:text="To Next Activity" />
+
+    <TextView
+        android:id="@+id/txtvmAge"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="This is First Activity"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <ImageView
+        android:id="@+id/imgFrmActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        tools:src="@tools:sample/avatars" />
+</LinearLayout>
